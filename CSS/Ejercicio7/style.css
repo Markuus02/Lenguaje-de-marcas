@@ -1,0 +1,26 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Primera caja */
+#caja1 {
+    background-color: purple;
+    color: rgb(0, 0, 0);
+}
+
+/* Segunda caja con desplazamiento relativo */
+#caja2 {
+    background-color: purple;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    position: relative;
+    left: 40px; /* Desplazamiento hacia la derecha */
+}
+
+/* Tercera caja */
+#caja3 {
+    background-color: purple;
+    color: rgb(0, 0, 0);
+}
