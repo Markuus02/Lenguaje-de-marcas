@@ -1,0 +1,33 @@
+body{
+    margin: 0%;
+    background-color: rgb(255, 251, 0);
+}
+h1 {
+    color:aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30px;
+}
+
+ul {
+    list-style-type: none; /* Quitar viñetas */
+    padding: 0; /* Quitar espaciado extra */
+}
+
+li {
+    float: left;
+    background-color: rgb(199, 199, 199);
+    width: 100px;
+    text-align: center;
+}
+
+a {
+    display: block; /* Asegurar que el enlace ocupe todo el ancho del <li> */
+    color: red;
+    padding: 10px; /* Espaciado interno del enlace */
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: blue;
+    color: white;
+}
