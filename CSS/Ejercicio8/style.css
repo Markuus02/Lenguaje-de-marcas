@@ -7,24 +7,24 @@ body {
 /* Primera caja */
 #caja1 {
     background-color: purple;
-    color: white;
+    color: black;
     padding: 10px;
 }
 
 /* Segunda caja con posicionamiento absoluto */
 #caja2 {
     background-color: green;
-    color: white;
+    color: black;
     position: absolute;
-    top: 70px; /* Ajusta la posición vertical */
-    left: 150px; /* Ajusta la posición horizontal */
+    top: 100px; /* Ajusta la posición vertical */
+    left: 650px; /* Ajusta la posición horizontal */
     padding: 10px;
 }
 
 /* Tercera caja */
 #caja3 {
     background-color: purple;
-    color: white;
+    color: black;
     padding: 10px;
-    margin-top: 50px; /* Para evitar que se superponga con caja2 */
+    margin-top: 20px; /* Para evitar que se superponga con caja2 */
 }
