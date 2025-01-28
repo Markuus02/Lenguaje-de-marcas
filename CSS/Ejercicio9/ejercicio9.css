@@ -1,0 +1,25 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para la barra lateral con posición fija */
+#barralateral {
+    margin-top: 20px;
+    margin-left: 10px;
+    position: fixed; /* Posición fija */
+    width: 200px;
+    height: 100px; /* Ocupa toda la altura de la ventana */
+    background-color: rgb(8, 240, 8);
+    padding: 20px;
+    top: 0; /* Fija en la parte superior */
+    left: 0; /* Fija en la parte izquierda */
+}
+
+/* Estilos para el contenido principal */
+#contenido {
+    margin-top: 30px;
+    margin-left: 260px; /* Margen para evitar solapamiento con la barra lateral */
+    padding: 20px;
+    background-color: #fff;
+}
