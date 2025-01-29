@@ -16,8 +16,8 @@ body {
     background-color: green;
     color: black;
     position: absolute;
-    top: 100px; /* Ajusta la posición vertical */
-    left: 650px; /* Ajusta la posición horizontal */
+    top: 50px; /* Ajusta la posición vertical */
+    left: 400px; /* Ajusta la posición horizontal */
     padding: 10px;
 }
 
