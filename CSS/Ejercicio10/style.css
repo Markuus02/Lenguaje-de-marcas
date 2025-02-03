@@ -19,19 +19,22 @@ header {
 /* Contenedor principal para menú y contenido */
 .container {
     display: flex;
-    flex: 1;
+    flex: 1; /* Ocupa todo el espacio disponible */
 }
 
 /* Menú de navegación vertical */
 nav {
     background-color: #333;
     width: 200px; /* Ancho del menú */
+    display: flex;
+    flex-direction: column;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    flex: 1; /* Ocupa todo el espacio vertical disponible */
 }
 
 nav ul li {
@@ -51,8 +54,9 @@ nav ul li a:hover {
 
 /* Contenido principal */
 main {
-    flex: 1;
+    flex: 1; /* Ocupa todo el espacio restante */
     padding: 20px;
+    background-color: #f9f9f9;
 }
 
 .columnas {
@@ -74,5 +78,4 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: auto;
 }
