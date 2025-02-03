@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Cabecera */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contenedor principal con menú y contenido */
+.container {
+    display: flex;
+    flex: 1; /* Ocupa todo el espacio disponible */
+    min-height: 60vh;
+}
+
+/* Menú de navegación vertical */
+#menu {
+    background-color: #333;
+    width: 265px; /* Ancho fijo del menú */
+    height: 36vh; /* Ocupa toda la pantalla */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Lista dentro del menú */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Asegura que no se expanda más */
+}
+
+nav ul li {
+    margin: 0;
+    height: 60px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Contenido principal al lado derecho del menú */
+main {
+    flex: 1; /* Ocupa el espacio restante */
+    padding: 20px;
+    background-color: transparent;
+}
+
+/* Ajuste para columnas dentro de main */
+.columnas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1; /* Asegura que las columnas ocupen todo el espacio disponible */
+}
+
+.columnas article {
+    flex: 1 1 calc(33.333% - 40px);
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
