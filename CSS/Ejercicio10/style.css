@@ -16,17 +16,22 @@ header {
     text-align: center;
 }
 
-/* Menú de navegación */
+/* Contenedor principal para menú y contenido */
+.container {
+    display: flex;
+    flex: 1;
+}
+
+/* Menú de navegación vertical */
 nav {
     background-color: #333;
+    width: 200px; /* Ancho del menú */
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
 }
 
 nav ul li {
