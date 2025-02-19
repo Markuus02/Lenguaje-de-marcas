@@ -1,0 +1,48 @@
+body {
+    background-color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.nombre {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #3f3f3f;
+}
+
+.descripcion {
+    font-size: 0.94em;
+    color: #666;
+    margin-bottom: 15px;
+}
+.btn {
+    background-color: #1c84f3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.94em;
+}
+
+.btn:hover {
+    background-color: #1157a1;
+}

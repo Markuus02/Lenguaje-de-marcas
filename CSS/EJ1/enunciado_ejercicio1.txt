@@ -1,0 +1,13 @@
+Se proporciona un archivo index_ej1.html que representa la estructura de una tarjeta de perfil de usuario. Deberás crear un archivo estilos_tarjeta.css para dar estilo a la tarjeta y hacerla coincidir con la imagen de referencia mostrada en aspecto_ej1.jpg (sin necesidad de modificar el fichero html). El icono del puntero del ratón debe cambiar al posicionarse sobre el botón, que también deberá cambiar de color de fondo cuando nos encontremos sobre él.
+
+RECUERDA QUE EL OBJETIVO PRINCIPAL DEL EJERCICIO ES INTENTAR QUE LA TARJETA SE VEA EN TU PÁGINA COMO APARECE EN EL FICHERO ASPECTO_EJ1.JPG
+
+
+Fondo de la página: #e0e0e0.
+Fuente predeterminada: Arial, sans-serif.
+
+
+Evaluación
+Correcta aplicación de los estilos (2 puntos)
+Estructura clara del código CSS (0.75 punto)
+Uso correcto del HTML sin modificar la estructura innecesariamente (0.75 punto)
