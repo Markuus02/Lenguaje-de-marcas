@@ -1,0 +1,36 @@
+Se proporcionan una serie de archivos:
+	-aspecto_ej2.jpg con la imagen de referencia con el resultado final que se busca para el contenido.
+	-index_ej2.html con la estructura básica de una página html y todo el contenido de texto necesario para el ejercicio.
+	-velocipedo.webp, drais.jpg, biciclo.jpg y moderna.jpg con las imágenes necesarias para cada uno de los textos.
+	-bike.svg y bike2.png con las imágenes para los fondos laterales de izquierda y derecha, respectivamente.
+
+Deberás dotar de estructura al fichero index_ej2.html y crear un archivo estilos_bici.css (y por supuesto asociarlo al html) para dar estilo a la página y hacerla coincidir en lo máximo posible con la imagen de referencia.
+
+RECUERDA QUE EL OBJETIVO PRINCIPAL DEL EJERCICIO ES INTENTAR QUE LA PÁGINA SE PRESENTE LO MÁS PARECIDA A COMO APARECE EN EL FICHERO ASPECTO_EJ2.JPG
+
+Evaluación
+Correcta aplicación del contenido y los estilos para obtención del resultado buscado (4 puntos)
+Uso correcto y claridad de la estructura y sintaxis de los documentos HTML y CSS (2.5 puntos)
+
+
+Consideraciones de ayuda:
+
+1er BLOQUE: Alineado a la izquierda
+
+2º BLOQUE: Texto en negrita y alineado al centro.
+
+3er BLOQUE: Cursiva y alineado a la parte derecha
+
+4º BLOQUE: Alineado al centro.
+
+Contenedor principal: sombreado y con color de fondo cornsilk
+
+Imagenes de apoyo a los textos en tamaño 120x120px
+Imagenes laterales fondo 50px
+
+Todas las cajas con bordes ligeramente redondeados
+
+Fondo general: khaki
+
+Fondo cajas 1 y 3: #ecf0f1
+Fondo cajas 2 y 4: #dff9fb
