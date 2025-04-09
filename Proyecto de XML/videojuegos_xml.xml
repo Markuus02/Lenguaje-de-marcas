@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilos.css"?>
+<videojuegos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="videojuegos_xsl.xsl">
+    <videojuego id="1">
+        <titulo>The Legend of Zelda: Breath of the Wild</titulo>
+        <desarrollador>Nintendo</desarrollador>
+        <plataforma>Nintendo Switch</plataforma>
+        <genero>Aventura</genero>
+        <lanzamiento>2017</lanzamiento>
+    </videojuego>
+    <videojuego id="2">
+        <titulo>God of War</titulo>
+        <desarrollador>Santa Monica Studio</desarrollador>
+        <plataforma>PlayStation 4</plataforma>
+        <genero>Acción</genero>
+        <lanzamiento>2018</lanzamiento>
+    </videojuego>
+    <videojuego id="3">
+        <titulo>The Witcher 3: Wild Hunt</titulo>
+        <desarrollador>CD Projekt Red</desarrollador>
+        <plataforma>PC, PlayStation 4, Xbox One</plataforma>
+        <genero>RPG</genero>
+        <lanzamiento>2015</lanzamiento>
+    </videojuego>
+</videojuegos>

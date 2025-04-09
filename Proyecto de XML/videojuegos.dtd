@@ -1,0 +1,8 @@
+<!ELEMENT videojuegos (videojuego+)>
+<!ELEMENT videojuego (titulo, desarrollador, plataforma, genero, lanzamiento)>
+<!ATTLIST videojuego id ID #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT desarrollador (#PCDATA)>
+<!ELEMENT plataforma (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT lanzamiento (#PCDATA)>

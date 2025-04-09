@@ -1,0 +1,22 @@
+/* Estilo para el documento XML */
+videojuegos {
+    display: block;
+    font-family: Arial, sans-serif;
+}
+
+videojuego {
+    display: block;
+    margin-bottom: 20px;
+}
+
+titulo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+desarrollador,
+plataforma,
+genero,
+lanzamiento {
+    margin-left: 20px;
+}
